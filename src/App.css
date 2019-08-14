@@ -1,0 +1,73 @@
+.container {
+    background: #A81D36;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.logo {
+    padding: 20px;
+}
+.Display {
+    background: #323335;
+    color: white;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto 10px;
+    padding: 10px 20px 0 20px;
+    text-align: end;
+
+    font-size: 200%;
+    border-radius: 40px
+}
+.App {
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.buttonsLeft {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.operatorButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.numberButton {
+    border-radius: 50%;
+    color: white;
+    background: #225D9E;
+    border: none;
+    width: 25%;
+    height: 45px;
+    margin: 8px;
+}
+.operatorButton {
+    background: #237293;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 45px;
+    margin: 8px 0;
+}
+.specialButton {
+    background: rgb(30, 111, 197);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    margin: 7px 8px 0;
+    height: 45px;
+    width: 50px;
+}
+.numberButtons {
+    padding-bottom: 5px;
+}
